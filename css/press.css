@@ -1,0 +1,66 @@
+.press {
+    padding-block-start: 2.75rem;
+    padding-block-end: 8rem;
+}
+
+.press-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.press-clients {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.press-cell {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .press {
+      grid-row-start: initial;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .press-clients {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        inline-size: 100%;
+        background-color: var(--white);
+        padding-block-end: 4rem;
+    }
+
+    .press-benefits {
+        background-color: var(--greylight);
+        padding-block-start: 4rem;
+    }
+
+    .press .service-description {
+        padding-inline: 1.25rem;
+    }
+
+    .press-image {
+        inline-size: 100%;
+    }
+
+    .press {
+        padding-block-end: 0;
+    }
+
+    .press-content {
+        gap: 0;
+    }
+
+    .press-cell {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        margin-block-start: 4rem;
+    }
+
+}

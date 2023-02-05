@@ -1,0 +1,20 @@
+.card-list {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.card-list .card:last-child {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .card-list {
+        flex-direction: column;
+        gap: 8.1875rem;
+    }
+
+    .card-list .card:last-child {
+        display: flex;
+    }
+}

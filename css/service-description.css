@@ -1,0 +1,12 @@
+.service-description {
+    max-inline-size: 38.1875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+    .service-description h2 {
+        font: var(--headline5);
+    }
+}

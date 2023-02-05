@@ -1,0 +1,16 @@
+@import './signup-card.css';
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, var(--grey2) 0%, var(--grey2) 50%, var(--black) 50%, var(--black));
+    border-block-end: 0px solid var(--black);
+}
+
+.signup-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, var(--grey2) 0%, var(--grey2) 50%, var(--black) 50%, var(--black));
+}

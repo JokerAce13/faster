@@ -1,0 +1,20 @@
+.progressBar {
+    block-size: 2.5rem;
+    background-color: var(--greylight);
+    border-start-start-radius: 100px;
+    border-end-start-radius: 100px;
+}
+
+.progress {
+    block-size: 2.5rem;
+    max-inline-size: 33.8125rem;
+    background-color: var(--greenpale);
+    border-radius: 100px;
+    margin-block-start: 3.75rem;
+}
+
+@media screen and (max-width: 375px) {
+    .progress {
+        max-inline-size: 12.875rem;
+    }
+}

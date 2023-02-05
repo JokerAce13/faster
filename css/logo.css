@@ -1,0 +1,5 @@
+.logo {
+    font: var(--button);
+    color: var(--white);
+    text-transform: uppercase;
+}

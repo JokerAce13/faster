@@ -1,0 +1,27 @@
+@import './card.css';
+@import './card-list.css';
+
+.folks {
+    background-color: var(--grey2);
+    padding-block-start: 8rem;
+    padding-block-end: 5rem;
+}
+
+.folks-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8.1875rem;
+}
+
+@media screen and (max-width: 375px) {
+    .folks {
+        padding-inline: 1.25rem;
+        text-align: center;
+    }
+
+    .folks-content h2 {
+        font: var(--headline5);
+    }
+}

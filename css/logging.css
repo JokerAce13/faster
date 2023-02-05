@@ -1,0 +1,38 @@
+@import './progress-bar.css';
+
+.logging {
+    background-color: var(--white);
+    padding-block: 12.5rem;
+}
+
+.logging-content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.logging-content img {
+    border-radius: 50%;
+}
+
+.logging-content .service-description {
+    max-inline-size: 27.875rem;
+}
+
+@media screen and (max-width: 375px) {
+    .logging {
+        padding-block: 4rem;
+        padding-inline: 1.25rem;
+    }
+
+    .logging-content .service-description {
+        order: 1;
+    }
+
+    .logging-content img {
+        border-radius: 50%;
+        order: 2;
+    }
+}

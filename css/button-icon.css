@@ -1,0 +1,14 @@
+.button-icon {
+    background-color: var(--white);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    block-size: 2.25rem;
+    inline-size: 2.25rem;
+    user-select: none;
+}
+
+.button-icon:active {
+    transform: scale(.9);
+}

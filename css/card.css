@@ -1,0 +1,44 @@
+.card {
+    inline-size: 22.625rem;
+    block-size: 17.4375rem;
+    border-radius: 8px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block-start: 8rem;
+    padding-block-end: 2rem;
+    padding-inline: 2rem;
+    position: relative;
+    gap: 3rem;
+    filter: drop-shadow(0px 4px 44px rgba(0, 0, 0, 0.1));
+}
+
+.card-image {
+    position: absolute;
+    inset-block-end: 89%;
+}
+
+.card-testimony {
+    text-align: center;
+    color: var(--black);
+}
+
+.card-author {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    text-align: center;
+}
+
+.card-user {
+    font: var(--body1-bold)
+}
+
+
+@media screen and (max-width: 375px) {
+    .card {
+        inline-size: auto;
+    }
+}

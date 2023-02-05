@@ -1,0 +1,25 @@
+.why {
+    background-color: var(--black);
+    padding-block-start: 12.9375rem;
+    padding-block-end: 15.4375rem;
+}
+
+.why .service-description {
+    max-inline-size: 28.625rem;
+    color: var(--white);
+}
+
+.why .service-description h2 {
+    color: var(--white);
+}
+
+.why .service-description p {
+    color: var(--white);
+}
+
+@media screen and (max-width: 375px) {
+    .why {
+        padding-block: 4rem;
+        padding-inline: 1.25rem;
+    }
+}

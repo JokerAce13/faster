@@ -1,0 +1,35 @@
+.button {
+    padding-inline: 1rem;
+    padding-block: .5rem;
+    font: var(--button);
+    border: 2px solid var(--white);
+    border-radius: .5rem;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.button:active {
+    transform: scale(.9);
+}
+
+.button.is-secondary {
+    border: 2px solid var(--white);
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.button.is-wide {
+    padding-inline: 3.8125rem;
+    padding-block: 0.75rem;
+}
+
+.button.is-signup {
+    padding-inline: 5.9375rem;
+    padding-block: 0.75rem;
+}
+
+@media screen and (max-width: 375px) {
+    .button.is-signup {
+        padding-inline: 4.5rem;
+    }
+}

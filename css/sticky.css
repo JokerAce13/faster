@@ -1,0 +1,21 @@
+.sticky {
+    grid-area: phone;
+    position: sticky;
+    inset-block-start: 250px;
+}
+
+.sticky img {
+    max-inline-size: 100%; /*Para que la imagen no se salga de la caja que la contiene*/
+}
+
+@media screen and (max-width: 1000px) {
+    .sticky {
+      position: initial;
+      grid-column: 1 / -1;
+      text-align: center;
+      /* Cuando no hay una imagen de fondo */
+      background-image: linear-gradient(to bottom, var(--black) 0%, var(--black) 50%, var(--white) 50%, var(--white));
+      /* Cuando hay una imagen de fondo */
+      margin-block-start: calc(var(--phoneBlockSize) / 2 * -1);
+    }
+  }

@@ -1,0 +1,20 @@
+.navbar ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navbar li a {
+    font: var(--button);
+    color: var(--grey);
+    text-decoration: none;
+}
+
+.navbar li.is-active {
+    border-block-end: 4px solid var(--white);
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar li.is-active a {
+    color: var(--white);
+}
